@@ -1,32 +1,43 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 3px;
+  border-color: black;
 }
+
+.buildingImage{
+  background-image: url('https://www.akmasonryllc.com/wp-content/uploads/brizy/8/assets/images/iW=677&iH=373&oX=61&oY=0&cW=555&cH=373/Hillcrest-Junior-High-School.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:950px;
+  width: 100%;
+  text-align: right;
+  font-size: 300%;
+  margin: 0;
+}
+
+.projectBackground{
+  background-image:url('https://www.akmasonryllc.com/wp-content/uploads/brizy/8/assets/images/iW=561&iH=374&oX=3&oY=0&cW=555&cH=374/Cottonwood-Heights-City-Hall.jpeg');
+}
+
+.serivcesBackround{
+  background-image: url('https://www.akmasonryllc.com/wp-content/uploads/brizy/8/assets/images/iW=360&iH=241&oX=0&oY=19&cW=360&cH=202/Mount-jordan-Middle-School.jpeg');
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
